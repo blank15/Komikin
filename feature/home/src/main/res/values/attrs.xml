@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseTheme">
+        <attr name="colorPrimary" format="reference|color" />
+        <attr name="colorPrimaryDark" format="reference|color" />
+        <attr name="colorAccent" format="reference|color" />
+        <attr name="colorText" format="reference|color"/>
+    </declare-styleable>
+</resources>

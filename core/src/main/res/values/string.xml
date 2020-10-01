@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_server_maintenance">Sorry, We\'re down for maintenance. Please check back soon</string>
+    <string name="timeout">Request timeout, Please make sure you have stable internet connection</string>
+    <string name="unknown_error">Sorry. There is unknown error on our end.\nPlease try again later</string>
+    <string name="no_internet">No Internet Connection</string>
+</resources>

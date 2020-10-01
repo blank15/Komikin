@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/forYouFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_recomend"
+        android:title="@string/recomend" />
+    <item
+        android:id="@+id/mangaFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_manga"
+        android:title="@string/manga" />
+    <item
+        android:id="@+id/manhwaFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_manhwa"
+        android:title="@string/manhwa" />
+    <item
+        android:id="@+id/manhuaFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_manhua"
+        android:title="@string/manhua" />
+    <item
+        android:id="@+id/moreFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_more"
+        android:title="@string/more" />
+
+
+</menu>

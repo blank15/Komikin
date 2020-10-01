@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_home"
+    app:startDestination="@id/forYouFragment">
+
+    <fragment
+        android:id="@+id/forYouFragment"
+        android:name="id.blank.home.ui.foryout.ForYouFragment"
+        android:label="fragment_for_you"
+        tools:layout="@layout/fragment_for_you" />
+    <fragment
+        android:id="@+id/mangaFragment"
+        android:name="id.blank.home.ui.manga.MangaFragment"
+        android:label="fragment_manga"
+        tools:layout="@layout/fragment_manga" />
+    <fragment
+        android:id="@+id/manhuaFragment"
+        android:name="id.blank.home.ui.manhua.ManhuaFragment"
+        android:label="fragment_manhua"
+        tools:layout="@layout/fragment_manhua" />
+    <fragment
+        android:id="@+id/manhwaFragment"
+        android:name="id.blank.home.ui.manhwa.ManhwaFragment"
+        android:label="fragment_manhwa"
+        tools:layout="@layout/fragment_manhwa" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="id.blank.home.ui.more.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+</navigation>

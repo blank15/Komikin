@@ -1,0 +1,14 @@
+apply from: "$rootDir/common-kotlin-library.gradle"
+dependencies {
+    //glide
+    implementation Libraries.glide
+    annotationProcessor Libraries.glideCompiler
+    //network
+    implementation Network.retrofit2
+    implementation Network.retrofit2Converter
+    implementation Network.coroutinesAdapter
+    implementation Network.okhttp3
+
+    implementation Libraries.pagination
+
+}
